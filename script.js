@@ -1,12 +1,12 @@
 let user = JSON.parse(localStorage.getItem("currentUser"))
 let autoriseElements = document.querySelectorAll(".autorise");
-let unatoriseElements = document.querySelectorAll(".unautorise");
+let unautoriseElements = document.querySelectorAll(".unautorise");
 console.log(autoriseElements)
-console.log(unatoriseElements)
+console.log(unautoriseElements)
 autoriseElements.forEach(element => {
     element.style.display = user? "block" : "none";
 });
-unatoriseElements.forEach(element => {
+unautoriseElements.forEach(element => {
     element.style.display = user? "none" : "block";
 });
 
