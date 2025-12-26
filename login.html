@@ -18,14 +18,15 @@
             <h2>АВТОРИЗАЦИЯ</h2>
         </div>
         <div class="line">
-            <input type="text" name="" id="" placeholder="логин">
+            <input type="text" name="" id="login" placeholder="логин">
         </div>
         <div class="line">
-            <input type="password" name="" id="" placeholder="пароль">
+            <input type="password" name="" id="password" placeholder="пароль">
         </div>
         <br>
+        <div class="line incorrectUser">неверный логин или пароль</div>
         <div class="line">
-            <button type="submit">войти</button>
+            <button type="button" onclick="loginUser()">войти</button>
             <button type="reset">сброс</button>
         </div>       
     </form>

@@ -19,6 +19,12 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
+    .autorise{
+        display: none;
+    }
+    .unautorise{
+        display: block;
+    }
     h1{
         flex-grow: 1;
         color: red;
@@ -48,6 +54,7 @@ header{
     width: 400px;
     color: white;
     padding: 20px;
+    
     .line{
         display: flex;
         width: 100%;
@@ -75,5 +82,8 @@ header{
             color:rgb(205, 6, 6);
             transition: 0.3s;
         }
-    }   
+    } 
+    .incorrectUser{
+        visibility:hidden;
+    }  
 }
